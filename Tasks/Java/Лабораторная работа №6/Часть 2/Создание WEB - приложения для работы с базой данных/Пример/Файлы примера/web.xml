@@ -1,0 +1,44 @@
+<!DOCTYPE web-app PUBLIC '-//Sun Microsystems, Inc.//DTD
+  Web Application 2.3//EN' 'http://java.sun.com/dtd/web-app_2_3.dtd'>
+<web-app>
+  <servlet>
+    <servlet-name>LoginServ11</servlet-name>
+    <servlet-class>LoginServ11</servlet-class>
+  </servlet>
+ <servlet>
+    <servlet-name>WelcomeServlet71</servlet-name>
+    <servlet-class>WelcomeServlet71</servlet-class>
+  </servlet>
+<servlet>
+    <servlet-name>WelcomeServlet81</servlet-name>
+    <servlet-class>WelcomeServlet81</servlet-class>
+  </servlet>
+<servlet>
+    <servlet-name>WelcomeServlet6</servlet-name>
+    <servlet-class>WelcomeServlet6</servlet-class>
+  </servlet>
+<servlet>
+    <servlet-name>WelcomeServlet91</servlet-name>
+    <servlet-class>WelcomeServlet91</servlet-class>
+  </servlet>
+   <servlet-mapping>
+    <servlet-name>LoginServ11</servlet-name>
+    <url-pattern>/LoginServ11</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>WelcomeServlet71</servlet-name>
+    <url-pattern>/WelcomeServlet71</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>WelcomeServlet81</servlet-name>
+    <url-pattern>/WelcomeServlet81</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>WelcomeServlet6</servlet-name>
+    <url-pattern>/WelcomeServlet6</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>WelcomeServlet91</servlet-name>
+    <url-pattern>/WelcomeServlet91</url-pattern>
+  </servlet-mapping>
+   </web-app>

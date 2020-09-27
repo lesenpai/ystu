@@ -1,0 +1,36 @@
+From: =?windows-1251?B?0e718ODt5e3uIFdpbmRvd3MgSW50ZXJuZXQgRXhwbG9yZXIgMTA=?=
+Subject: 
+Date: Tue, 2 Dec 2014 17:35:18 +0400
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://netbeans.org/project_downloads/usersguide/colleagues.sql
+X-MimeOLE: Produced By Microsoft MimeOLE V6.2.9200.16384
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html PUBLIC "" ""><HTML><HEAD><META content=3D"IE=3D10.000"=20
+http-equiv=3D"X-UA-Compatible">
+
+<META http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dwindows-1251">
+<META name=3D"GENERATOR" content=3D"MSHTML 10.00.9200.16384"></HEAD>
+<BODY>
+<PRE>CREATE TABLE COLLEAGUES (=0A=
+   "ID" INTEGER not null primary key,=0A=
+    "FIRSTNAME" VARCHAR(30),=0A=
+    "LASTNAME" VARCHAR(30),=0A=
+    "TITLE" VARCHAR(10),=0A=
+    "DEPARTMENT" VARCHAR(20),=0A=
+    "EMAIL" VARCHAR(60)=0A=
+);=0A=
+=0A=
+INSERT INTO COLLEAGUES VALUES =
+(1,'Mike','Johnson','Manager','Engineering','mike.johnson@foo.com');=0A=
+INSERT INTO COLLEAGUES VALUES (2, 'James', 'Still', 'Engineer', =
+'Engineering', 'james.still@foo.com');=0A=
+INSERT INTO COLLEAGUES VALUES (3, 'Jerilyn', 'Stall', 'Manager', =
+'Marketing', 'jerilyn.stall@foo.com');=0A=
+INSERT INTO COLLEAGUES VALUES (4, 'Jonathan', 'Smith', 'Manager', =
+'Marketing', 'jonathan.smith@foo.com');=0A=
+</PRE></BODY></HTML>
